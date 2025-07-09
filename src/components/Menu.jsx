@@ -6,7 +6,7 @@ import gsap from 'gsap';
 function Menu() {
 
     const contentRef = useRef();
-    const [activeCocktailIndex, setActiveCocktailIndex] = useState(1)
+    const [activeCocktailIndex, setActiveCocktailIndex] = useState(0)
     const totalCocktails = allCocktails.length;
     const currentCocktail = getCocktailAt(0);
     const prevCocktail = getCocktailAt(-1);
